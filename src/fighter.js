@@ -19,7 +19,7 @@ class Fighter {
       const wound = Math.max(hit - enemy.dexterity, 0);
       //  wound < 0 ? '' : enemy.life - wound < 0 ? enemy.life = 0 : enemy.life = enemy.life - wound;
       enemy.life = Math.max(enemy.life - wound, 0);
-      return `${this.name} ${this.emoji}⚔️${enemy.emoji} ${enemy.name} => ${enemy.emoji}${enemy.heart} ${enemy.life}`
+      return `${this.name} ${this.emoji}🗡️${enemy.emoji} ${enemy.name} => ${enemy.emoji}${enemy.heart} ${enemy.life}`
     }
 
     isAlive() {

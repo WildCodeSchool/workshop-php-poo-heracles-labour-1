@@ -5,8 +5,8 @@ const heracles = new Fighter('Héraclès', 20, 6, '🧔', '💚');
 const lion = new Fighter('Lion de Némée', 11, 13, '🦁',);
 
 
-console.log(heracles);
-console.log(lion);
+console.log(heracles.fight(lion));
+console.log(lion.fight(heracles));
 /*
 // fight !
 //while (heracles.life > 0 && lion.life > 0) {}
@@ -17,5 +17,5 @@ console.log(lion.fight(heracles));
 
 */
 
-
+// 🏆 et le perdant 💀
 //  return `${this.name} ${this.emoji}⚔️${enemy.emoji} ${enemy.name} => ${enemy.emoji}${enemy.heart} ${enemy.life}`;
