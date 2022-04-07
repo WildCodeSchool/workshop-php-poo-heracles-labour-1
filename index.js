@@ -6,4 +6,6 @@ const heracles = new Fighter('Héraclès', 20, 6, '🧔', '💚');
 const lion = new Fighter('Lion de Némée', 11, 13, '🦁', '💙');
 
 // fight !
-heracles.fight(lion)
+while (heracles.life > 0 && lion.life > 0) {}
+heracles.fight(lion);
+lion.fight(heracles)
