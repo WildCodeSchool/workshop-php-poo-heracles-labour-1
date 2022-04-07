@@ -1,3 +1,0 @@
-<?php
-
-/* Fighter class definition */
