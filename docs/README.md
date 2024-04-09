@@ -83,3 +83,8 @@ Crée une nouvelle méthode `isAlive()` peut t’aider à optimiser le code.
 
 Une fois que tu as fini, n’hésite pas à modifier le code et à ajouter de nouvelles fonctionnalités.
 Un code "propre" te sera fourni au début du prochain atelier.
+
+
+**Épisode suivant**  
+[Le sanglier d’Érymanthe](https://wildcodeschool.github.io/workshop-php-poo-heracles-labour-2/)
+{: .text-center :}
